@@ -26,7 +26,7 @@ Clone repository and navigate to folder on command line:
 git clone ...
 ```
 ```
-cd REDISQ
+cd FastAPI_Redis_YOLOv5
 ```
 
 Install dependencies, run virtual environment
@@ -53,9 +53,9 @@ redis-cli ping
 
 ## Launch app, start redis backend
 
-Proceed to REDISQ folder and run the app, then go to url
+Proceed to REDIS folder and run the app, then go to url
 ```
-cd REDISQ
+cd FastAPI_Redis_YOLOv5
 ```
 ```
 uvicorn main:app --reload
