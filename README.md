@@ -53,7 +53,7 @@ redis-cli ping
 
 ## Launch, start app
 
-Proceed to rq-demo/rq_demo folder and run the app, then go to url
+Proceed to REDISQ folder and run the app, then go to url
 ```
 cd REDISQ
 ```
