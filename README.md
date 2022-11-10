@@ -51,7 +51,7 @@ redis-server
 redis-cli ping
 ```
 
-## Launch, start tasks and monitoring
+## Launch, start app
 
 Proceed to rq-demo/rq_demo folder and run the app, then go to url
 ```
