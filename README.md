@@ -51,7 +51,7 @@ redis-server
 redis-cli ping
 ```
 
-## Launch, start app
+## Launch app, start redis backend
 
 Proceed to REDISQ folder and run the app, then go to url
 ```
@@ -63,3 +63,9 @@ uvicorn main:app --reload
 ```
 http://127.0.0.1:8000/
 ```
+```
+python back.py
+```
+
+## Every refresh page http://127.0.0.1:8000/result, if we have a some results, we will see a new_image with hidden number. 
+
