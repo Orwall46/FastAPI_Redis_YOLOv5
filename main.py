@@ -1,6 +1,4 @@
-"""This example for testing Redis Queue
-with FastAPI
-"""
+"""This example for testing Redis with FastAPI"""
 
 
 import redis
@@ -36,5 +34,4 @@ def get_results():
     with redis.Redis() as client:
         if client.keys('answer'):
             return Response(client.brpop('answer')[1], media_type="image/png")
-        else:
-            return {'message': 'Oops. Dont have any results'}
+        return {'message': 'Oops. Dont have any results'}
