@@ -63,5 +63,3 @@ uvicorn main:app --reload
 ```
 http://127.0.0.1:8000/
 ```
-
-And it's clearer to run the application in [VScode debug mode](https://code.visualstudio.com/docs/python/tutorial-flask#_run-the-app-in-the-debugger)
