@@ -2,7 +2,7 @@
 
 ## Description
 
-The project acquaints with the [Redis Queue](https://python-rq.org), a simple Python library for queueing jobs and processing them in the background with workers.
+The project acquaints with the [Redis](https://redis.io), a simple Python library for jobs and processing them in the background with workers.
 
 ## Technologies
 
